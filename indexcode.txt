@@ -14,7 +14,9 @@ Shuchita Poddar Portfolio
 
 <body>
 
+<a href="https://www.linkedin.com/in/shuchitapoddar/"> 
 <img src="ig/link2.png" width="50"> 
+</a>
 
 <p>
 <img src="ig/1.1.jpg"
