@@ -7,16 +7,8 @@ a {
 }
 
 .bio {
-  padding: 30px;
+  padding: 40px;
 }
-.categories img {
-  margin: 30px;
-}
-
-.carousel {
-  margin: 40px;
-}
-
 .header {
   background-color: #273746;
   padding: 20px;
@@ -27,3 +19,20 @@ a {
   width: 100%;
   text-align: center;
 }
+
+.categories img {
+  margin: 30px;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.carousel {
+  margin: 40px;
+}
+
