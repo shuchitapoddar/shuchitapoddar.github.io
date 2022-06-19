@@ -20,27 +20,36 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="mx-auto nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link active" href="index.html">Home</a>
                     </li>
-                    <li class="mx-auto nav-item">
-                        <a class="nav-link" href="foodtry.html">Food</a>
+                    <li class="mx-auto nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="igs.html" role="button"
+                            aria-expanded="false">Instagram Stories</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="foodtry.html">Food</a></li>
+                            <li><a class="dropdown-item" href="travel.html">Travel</a></li>
+                            <li><a class="dropdown-item" href="others.html">Others</a></li>
                     </li>
-                    <li class="mx-auto nav-item">
-                        <a class="nav-link" href="travel.html">Travel</a>
-                    </li>
-                    <li class="mx-auto nav-item">
-                        <a class="nav-link active" href="others.html">Others</a>
-                    </li>
-                    <li class="mx-auto nav-item">
-                        <a class="nav-link active" href="pub.html">Publications</a>
-                    </li>
-                    <li class="mx-auto nav-item">
-                        <a class="nav-link active" href="aboutme.html">About Me</a>
-                    </li>
+                </ul>
+                <li class="mx-auto nav-item">
+                    <a class="nav-link active" href="pub.html">Publications</a>
+                </li>
+                <li class="mx-auto nav-item">
+                    <a class="nav-link active" href="aboutme.html">About Me</a>
+                </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <center>
+        <div class="d-grid gap-2 d-md-block">
+            <a href="foodtry.html">
+                <button type="button" class="btn btn-dark btn-sm">
+                    Food
+                </button> </a>
+            <a href="travel.html"> <button type="button" class="btn btn-dark btn-sm">Travel</button> </a>
+        </div>
+    </center>
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
